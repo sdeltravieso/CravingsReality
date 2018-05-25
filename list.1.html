@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cravings.Reality</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Shadows+Into+Light" rel="stylesheet">
+	<!-- Link to Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Link to stylesheet -->
+	<link rel="stylesheet" href="assets/css/stylesheet.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="./assets/css/animate.css">
+</head>
+
+<body>
+
+	<!-- <div class="mainContainer"> -->
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center heading">Cravings.Reality</h1>
+		</div>
+	</div>
+
+	<br>
+
+
+	<div class="row">
+		<!-- left column with recipe results -->
+		<div class="col-md-3">
+			<div class="panel panel-default left-panel">
+				<div class="panel-body">
+					<div class="page-header">
+						<h2>Ingredients
+						</h2>
+					</div>
+
+					<div class="recipeList" id="recipeList">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Middle column -->
+		<div class="col-md-6">
+			<div class="panel panel-default center-panel">
+				<div class="panel-body">
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="page-header">
+								<h2 class="animated bounce">
+									Items to Choose From
+								</h2>
+							</div>
+
+							<div class="container neededContainer">
+								<span class="needed">
+									<h2>You need: _______</h2>
+								</span>
+								<button class="needed btn btn-success" id="alreadyHave">Already Have</button>
+							</div>
+
+							<div class="container listItems">
+
+								<table style="width:100%" id="addedItems" class="productTable">
+
+								</table>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-md-3">
+			<div class="panel panel-default right-panel">
+				<div class="panel-body">
+					<h2>
+						List
+					</h2>
+
+					<div class="container addedItems" id="addedList">
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+
+		<p class="footerText">&copy; Cereal Killers 2018</p>
+
+	</footer>
+	<!-- </div> -->
+
+	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/javascript/script2.js"></script>
+</body>
+
+</html>
